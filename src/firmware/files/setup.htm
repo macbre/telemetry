@@ -1,0 +1,11 @@
+<h1>Ustawienia</h1>
+<table class="list" width="97%">
+	<tr class="odd"><td width="30%">Zegar</td><td><button onclick="setTime(this.parentNode)">Ustaw wg wskazañ PC</button></td></tr>
+	<tr><td>Adres IP</td><td id="ip"></td></tr>
+	<tr><td>Adres MAC</td><td id="mac"></td></tr>
+</table>
+
+<script src="/static/info.js"></script>
+<script>
+	getStatus(function(data) {$h('mac', data.mac.split('-').join(':'));$h('ip', data.ip + (data.dhcp ? ' (DHCP)' : '') );});
+</script>

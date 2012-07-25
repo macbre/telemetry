@@ -1,0 +1,23 @@
+<h1>Akwizycja</h1>
+
+<link rel="stylesheet" href="/static/daq.css" />
+
+<h3><a href="/daq/list">Pomiary</a></h3>
+
+<h3>Nowy pomiar</h3>
+
+<form onsubmit="return daq_start()" id="daq">
+<input id="name" value="Pomiar" />
+<br /><br />
+<select id="ch"></select>
+
+<label for="delay">Interwa³ [s]</label>
+<input id="delay" value="2" />
+
+<label for="samples">Próbek</label>
+<input id="samples" value="20" />
+
+<input type="submit" id="submit" value="Rozpocznij" />
+</form>
+
+<script src="/static/daq.js"></script>

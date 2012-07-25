@@ -1,0 +1,14 @@
+h3 {font-weight: 500; font-size: 1.3em; margin: 12px 5px; color: #6B8E23}
+h3 a {color:#6B8E23}
+
+form {padding: 0px 5px; margin: 0 2px}
+
+label {display:block; font-size: 0.8em; color: #333; margin: 3px 5px}
+
+#name, #ch, #delay, #samples {width: 200px; border: solid 1px #666; margin: 3px 5px; padding: 2px; font-size: 0.8em}
+
+#submit {padding: 2px 50px; margin: 5px; display: block}
+
+.progress {width: 400px; margin: 20px; color: #6B8E23; font-weight: bold}
+
+.error {border-left: solid 3px #800000}

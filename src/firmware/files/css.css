@@ -1,0 +1,27 @@
+#temperatures {margin:75px auto;padding:0 20px;color:#4682B4}
+#temperatures td {font: 3.5em normal "Trebuchet MS", sans; letter-spacing:-3px;padding:8px; border:none; width:125px; text-align:center;}
+
+.temp_00 {color: #4C4CFE}
+.temp_10 {color: #1200EC}
+.temp_20 {color: #2300D8}
+.temp_30 {color: #3600C8}
+.temp_40 {color: #5B00A3}
+.temp_50 {color: #7F007F}
+.temp_60 {color: #91006D}
+.temp_70 {color: #A3005B}
+.temp_80 {color: #B60048}
+.temp_90 {color: #C60035}
+.temp_100 {color: #DA0024}
+.temp_110 {color: #F14C58}
+.temp_120 {color: #FE4C4C}
+
+.list {border-bottom:2px solid #3B5E03;border-top:2px solid #3B5E03; margin:15px auto;font-size:0.8em;border-collapse:collapse;background-position:99% 8px}
+.list .odd {background: #f1f5f1}
+.list td {padding:4px 3px;border-top:solid 1px #c1c5c1}
+
+form {margin:0;padding:0}
+
+/* IE6 */
+* html #temperatures {margin-top: 15px}
+* html #temperatures td {padding: 60px 8px}
+* html address {margin-top: -60px}
